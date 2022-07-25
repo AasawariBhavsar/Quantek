@@ -118,7 +118,7 @@ class Item(BaseModel):
 
 @app.get("/")
 async def index():
-    return "Go to swagger ui"
+    return "Go to swagger ui https://html-parsing-api.herokuapp.com/docs"
 
 @app.post("/items/")
 async def createitem(item:Item):
